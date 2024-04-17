@@ -1,0 +1,128 @@
+:root {
+  --bs-body-bg: var(--bs-gray-100);
+}
+.list {
+	list-style-type: circle;
+	color:#EEEEEE
+}
+
+.parallax {
+	/* image used */
+	background-image: url("parallax.jpg");
+	/* specific height */
+	min-height: 300px;
+	max-height: 300px;
+	/* parallax effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#parallax-1 {
+	/* specific height */
+	min-height: 100vh;
+	max-height: 100vh;
+}
+
+.modal-footer{
+	/* make bottom margin for modal footers and names in the team section */
+	margin-bottom: 20px;
+}
+
+html {
+	/* making space for the header */
+	scroll-padding-top: 50px;
+}
+
+h1 {
+	/* moving the section headers a wee bit */
+	margin-left: -5px;
+	color: #FFC300;
+	padding: 10px;
+}
+
+h3 {
+	/* moving the subsection headers a wee bit */
+	margin-left: -5px;
+}
+
+img {
+	/* padding and margin for images*/
+	padding: 3px;
+	margin: 3px;
+}
+
+.bg-navy{
+	background-color: #14213D;
+}
+
+.table-navy{
+	--bs-table-bg: #14213D;
+}
+
+.navbar-brand{
+	font-family : "Palatino", serif;
+	font-size: 30px;
+}
+
+.navbar-brand span{
+	color: #dc3545;
+}
+
+.container{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.model-img{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.navbar{
+	background-color: #EEEEEE;
+}
+
+.dropdown-menu{
+	background-color: #EEEEEE;
+}
+
+.center-title{
+	/* Center vertically and horizontally */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+h4{
+	font-family : "Palatino", serif;
+	font-size: 100px;
+	text-align: center;
+}
+
+h5{
+	font-family : "Palatino", serif;
+	font-size: 36px;
+	text-align: center;
+}
+
+h6{
+	font-family : "Palatino", serif;
+	font-size: 24px;
+	text-align: center;
+}
+
+h4 span{
+	color: #14213D;
+}
+
+.btn{
+	width: 100%;
+}
+
+p{
+	font-family : Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}

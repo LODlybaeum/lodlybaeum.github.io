@@ -1,0 +1,93 @@
+@prefix SCHEMA: <http://schema.org/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://purl.archive.org/domain/lodlybaeum/article/> a SCHEMA:ScholarlyArticle ;
+    dc:creator <https://purl.archive.org/domain/lodlybaeum/article/fd/author/> ;
+    dc:extent "140-146" ;
+    dc:publisher "University of Chicago Press" ;
+    dc:references <https://purl.archive.org/domain/lodlybaeum/article/bibliography/1>,
+        <https://purl.archive.org/domain/lodlybaeum/article/bibliography/10>,
+        <https://purl.archive.org/domain/lodlybaeum/article/bibliography/11>,
+        <https://purl.archive.org/domain/lodlybaeum/article/bibliography/12>,
+        <https://purl.archive.org/domain/lodlybaeum/article/bibliography/13>,
+        <https://purl.archive.org/domain/lodlybaeum/article/bibliography/14>,
+        <https://purl.archive.org/domain/lodlybaeum/article/bibliography/2>,
+        <https://purl.archive.org/domain/lodlybaeum/article/bibliography/3>,
+        <https://purl.archive.org/domain/lodlybaeum/article/bibliography/4>,
+        <https://purl.archive.org/domain/lodlybaeum/article/bibliography/5>,
+        <https://purl.archive.org/domain/lodlybaeum/article/bibliography/6>,
+        <https://purl.archive.org/domain/lodlybaeum/article/bibliography/7>,
+        <https://purl.archive.org/domain/lodlybaeum/article/bibliography/8>,
+        <https://purl.archive.org/domain/lodlybaeum/article/bibliography/9>,
+        <https://purl.archive.org/domain/lodlybaeum/article/bibliography/quote/1>,
+        <https://purl.archive.org/domain/lodlybaeum/article/bibliography/quote/2>,
+        <https://purl.archive.org/domain/lodlybaeum/article/bibliography/quote/3>,
+        <https://purl.archive.org/domain/lodlybaeum/article/bibliography/quote/4>,
+        <https://purl.archive.org/domain/lodlybaeum/article/bibliography/quote/5>,
+        <https://purl.archive.org/domain/lodlybaeum/article/bibliography/quote/6> ;
+    SCHEMA:datePublished "1986-04-01"^^xsd:date ;
+    SCHEMA:issn "0009837X" ;
+    SCHEMA:name "To be Taken with a Pinch of Salt: The Destruction of Carthage." ;
+    SCHEMA:provider <https://purl.archive.org/domain/lodlybaeum/article/fd/journal/> ;
+    SCHEMA:volumeNumber "81" .
+
+<https://purl.archive.org/domain/lodlybaeum/article/fd/issn/> a SCHEMA:issn .
+
+<https://purl.archive.org/domain/lodlybaeum/article/fd/publisher/> dc:location "Chicago" .
+
+<https://purl.archive.org/domain/lodlybaeum/article/fd/title/> rdfs:label "To be Taken with a Pinch of Salt: The Destruction of Carthage." .
+
+<https://purl.archive.org/domain/lodlybaeum/article/fd/volume/> SCHEMA:PublicationVolume "81" .
+
+<https://purl.archive.org/domain/lodlybaeum/article/quote/1> a dc:bibliographicCitation ;
+    rdfs:label "Le traitement infligé à Carthage est demeuré dans la mémoire des hommes comme le plus terrible exemple de I'anéantissement total d'un peuple: la ville incendiée, les ruines détruites jusque dans leurs fondations, le sol semé de sel, les survivants vendus en esclavage, les dieux mêmes emmenés à Rome." ;
+    dc:references <https://purl.archive.org/domain/lodlybaeum/article/bibliography/quote/1> .
+
+<https://purl.archive.org/domain/lodlybaeum/article/quote/2> a dc:bibliographicCitation ;
+    rdfs:label "none of Carthage should be left, and that it should not be rebuilt, they denounced heavy curses on any that should offer to do it." ;
+    dc:references <https://purl.archive.org/domain/lodlybaeum/article/bibliography/quote/2> .
+
+<https://purl.archive.org/domain/lodlybaeum/article/quote/3> a dc:bibliographicCitation ;
+    rdfs:label "The senate ordered the general to level the city of Carthage and the suburbs of Megalia with the ground, and to do the same with all the townships which had held by Carthage to the last; and thereafter to pass the plough over the site of Carthage so as to put an end in legal form to the existence of the city and curse the soil and site for ever, that neither house nor cornfield might ever reappear on the spot." ;
+    dc:references <https://purl.archive.org/domain/lodlybaeum/article/bibliography/quote/3> .
+
+<https://purl.archive.org/domain/lodlybaeum/article/quote/4> a dc:bibliographicCitation ;
+    rdfs:label "It was not sufficient to destroy Carthage; it was necessary to prevent it from springing up again. Scipio, having razed it to the ground, had priests pronounce solemn imprecations against anyone who should attempt to rebuild it. But curses did not suffice. In order to blot out forever what remained of the Carthaginians in Africa, more efficacious measures were resorted to: Rome was obliged to occupy the country it had just conquered." ;
+    dc:references <https://purl.archive.org/domain/lodlybaeum/article/bibliography/quote/4> .
+
+<https://purl.archive.org/domain/lodlybaeum/article/quote/5> a dc:bibliographicCitation ;
+    rdfs:label "Arrivée en Afrique, elle [the commission] invita Scipio à détruire entièrement ce qui restait encore de Carthage. Sur son avis, Publius prononça des imprécations qui consacraient le sol de la ville et en interdisant l'usage aux hommes, l'acces n'en fut pas dèfendu, mais personne ne devait désormais y établir sa démeure." ;
+    dc:references <https://purl.archive.org/domain/lodlybaeum/article/bibliography/quote/5> .
+
+<https://purl.archive.org/domain/lodlybaeum/article/quote/6> a dc:bibliographicCitation ;
+    rdfs:label "The common belief that the city was levelled to the ground and a plough run over it is based on the exaggerated account of the late writer Orosius (fifth century A.D.). Actually the ruins remained for centuries afterward. In fact, Plutarch tells us that Marius once sat among them. And they remained on an immense scale. For centuries, the old walls, temples and other buildings were a quarry for ready-dressed stone." ;
+    dc:references <https://purl.archive.org/domain/lodlybaeum/article/bibliography/quote/6> .
+
+<https://purl.archive.org/domain/lodlybaeum/article/fd/author/> a foaf:Person ;
+    rdfs:label "Ronald Ridley" .
+
+<https://purl.archive.org/domain/lodlybaeum/article/fd/journal/> a SCHEMA:Periodical,
+        SCHEMA:volumeNumber ;
+    rdfs:label "Classical Philology" .
+
+<https://purl.archive.org/domain/lodlybaeum/article/bibliography/quote/1> a dc:BibliographicResource ;
+    rdfs:label " Le monde de Carthage (Paris, 1956), p. 76." .
+
+<https://purl.archive.org/domain/lodlybaeum/article/bibliography/quote/2> a dc:BibliographicResource ;
+    rdfs:label "Roman History (London, 1713), p. 233." .
+
+<https://purl.archive.org/domain/lodlybaeum/article/bibliography/quote/3> a dc:BibliographicResource ;
+    rdfs:label "History of Rome, vol. 3 (London, 1895), pp. 257-58. So Niebuhr, Lectures on the History of Rome (London, 1870), p. 479; T. Arnold, History of the Later Roman Commonwealth, vol. I (London, 1845), p. 32; H. Liddell, History of Rome, vol. 2 (London, 1855), p. 130; V. Duruy, History of Rome, vol. 2 (London, 1884), p. 144." .
+
+<https://purl.archive.org/domain/lodlybaeum/article/bibliography/quote/4> a dc:BibliographicResource ;
+    rdfs:label "Roman Africa (London, 1899), p. 92. For other nineteenth-century accounts to the same effect, see V' Guerin, Voyage archeologique dans la regence de Tunis, vol. I (Paris, 1862), pp. 55-56; C. Tissot, Geographie comparee de la province romaine de IAfrique, vol. I (Paris, 1884), pp. 632-33; A. Church and A. Gilman, Carthage (London, 1886), p. 301; R. Bosworth Smith, Carthage and the Carthaginians (London, 1894), p. 359." .
+
+<https://purl.archive.org/domain/lodlybaeum/article/bibliography/quote/5> a dc:BibliographicResource ;
+    rdfs:label "Histoire ancienne de l'Afrique du Nord, vol. 3 (Paris, 1920), p. 403. Other histories of this century which know nothing of salt are: G. Ferrero, Greatness and Decline of Rome, vol. I (London, 1907) p. 44; W. Heitland, Roman Republic, vol. 2 (Cambridge, 1909), p. 171; M. Rostovtzeff, Rome (London, 1927), p. 76; E. Pais, Histoire romaine (Paris, 1940), p. 645; M. Cary, Historsj of Rome2 (London 1954), p. 192; L. Pareti, Storia di Roma, vol. 3 (Turin, 1953), p. 216; G. de Sanctis, Storia dei Roma vol. 4.3 (Florence, 1964), p. 73; A. Boak and W. Sinnigen, History of Rome5 (New York, 1965), p. 1 A. Astin, Scipio Aemilianus (Oxford, 1967), pp. 75-76; J. Brisson, Carthage ou Rome? (Paris, 1973), p. 373; A. Heuss, Romische Geschichte4 (Braunschweig, 1976), p. 122. Of books on Carthage, see A. Audollent, Carthage romaine (Paris, 1901), pp. 29-30; D. Slade Carthage and Tunis, vol. I (London, 1906), pp. 161-62; 0. Meltzer and U. Kahrstedt, Geschichte Karthager, vol. 3 (Berlin, 1913), p. 661; Lenchau, s.v. \"Karthago,\" RE 10 (1919): 2235; V. Ehrenber Karthago (Leipzig, 1928), p. 37; P. Romanelli, Storia delle provincie romane dell'Africa (Rome, 1959), p. 35." .
+
+<https://purl.archive.org/domain/lodlybaeum/article/bibliography/quote/6> a dc:BibliographicResource ;
+    rdfs:label "F. Heichelheim and C. Yeo, History of the Roman People (New York, 1962), p. 157. Similarl D. Harden, The Phoenicians (London, 1962), p. 74, first says the city was pillaged and burned to ground and the site ploughed over. He then goes on to admit that burning is confirmed by the ruin \"but ploughing up is another matter.\" The only archaeologist I know to discuss the question-perhaps indeed, the originator of the caution-is F. Kelsey, Excavations at Carthage (New York, 192 pp. 16-17). He made two points: that Carthage was built to some extent of stone, and that from h observations of cities which had been bombed in the First World War, no such complete destruction could have been carried out at Carthage. A reader has kindly offered another suggestion. In the founding of ancient cities, the most important rite was the drawing of the sulcus primigenius. Perhaps the Romans simply ploughed up and destroyed the boundary furrow. See C. Thulin, Die etruskische Disciplin, vol. 3 (Goteborg, 1909), pp. 3 ff." .
+

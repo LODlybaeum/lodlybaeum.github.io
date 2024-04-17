@@ -1,0 +1,20 @@
+from lxml import etree
+
+def transform_xml(article,xmltohtml, output):
+    #parser
+    xslt = etree.parse("xmltohtml.xslt")
+
+    #xslt transformer
+    transformer = etree.XSLT(xslt)
+
+    #parse the xml
+    xml= etree.parse("article.xml")
+
+    #apply the transformation
+    transformed_xml = transformer(xml)
+
+    #write the result into the output file
+    with open("output.html", "wb") as f:
+        f.write(etree.tostring(transformed_xml, pretty_print=True))
+
+transform_xml("article.xml","xmltohtml.xslt", "output.html" )

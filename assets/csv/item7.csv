@@ -1,0 +1,9 @@
+<https://purl.archive.org/domain/lodlybaeum/item/painting>,rdf:type,wd:Q3305213
+<https://purl.archive.org/domain/lodlybaeum/item/painting>,schema:name,"The Battle of Zama"
+<https://purl.archive.org/domain/lodlybaeum/item/painting>,wd:property:P571,"16th century"
+<https://purl.archive.org/domain/lodlybaeum/item/painting>,wd:property:P276,wd:Q239303
+<https://purl.archive.org/domain/lodlybaeum/item/painting>,wd:property:P4610,"111618"
+<https://purl.archive.org/domain/lodlybaeum/item/painting>,wd:property:P921,wd:Q200056
+<https://purl.archive.org/domain/lodlybaeum/item/painting>,wd:property:P6108,"https://api.artic.edu/api/v1/artworks/111618/manifest.json"
+<https://purl.archive.org/domain/lodlybaeum/item/painting>,schema:creator,wd:Q167220
+<https://purl.archive.org/domain/lodlybaeum/item/painting>,schema:artMedium,"Oil on Pannel"

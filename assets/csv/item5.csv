@@ -1,0 +1,9 @@
+<https://purl.archive.org/domain/lodlybaeum/item/painting_2>,rdf:type,wd:Q3305213
+<https://purl.archive.org/domain/lodlybaeum/item/painting_2>,schema:about,<https://purl.archive.org/domain/lodlybaeum/person/Archimedes>
+<https://purl.archive.org/domain/lodlybaeum/item/painting_2>,wd:property:P180	wd:Q8739
+<https://purl.archive.org/domain/lodlybaeum/item/painting_2>,wd:property:P2049,"221.0 Centimetre"
+<https://purl.archive.org/domain/lodlybaeum/item/painting_2>,wd:property:P2048,"175.3 Centimetre"
+<https://purl.archive.org/domain/lodlybaeum/item/painting_2>,wd:property:P4373,nattrust:609024
+<https://purl.archive.org/domain/lodlybaeum/item/painting_2>,wd:property:P170,wd:Q332494
+<https://purl.archive.org/domain/lodlybaeum/item/painting_2>,wd:property:P1476,"The Death of Archimedes (English)"
+<https://purl.archive.org/domain/lodlybaeum/item/painting_2>,schema:about,wd:Q533090

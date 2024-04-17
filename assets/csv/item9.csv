@@ -1,0 +1,13 @@
+<https://purl.archive.org/domain/lodlybaeum/item/coin>,rdf:type,nmo:NumismaticObject
+<https://purl.archive.org/domain/lodlybaeum/item/coin>,dc:identifier,"1911,0702.1"
+<https://purl.archive.org/domain/lodlybaeum/item/coin>,nmo:hasReverse,<https://purl.archive.org/domain/lodlybaeum/person/Hannibal>
+<https://purl.archive.org/domain/lodlybaeum/item/coin>,nmo:hasWeight,"14.61g"
+<https://purl.archive.org/domain/lodlybaeum/item/coin>,nmo:hasDiameter,"25mm"
+<https://purl.archive.org/domain/lodlybaeum/item/coin>,nmo:hasAxis,"11 o'clock"
+<https://purl.archive.org/domain/lodlybaeum/item/coin>,nmo:Material,"silver"
+<https://purl.archive.org/domain/lodlybaeum/item/coin>,nmo:hasStartDate,"237BC"
+<https://purl.archive.org/domain/lodlybaeum/item/coin>,nmo:hasEndDate,"209BC"
+<https://purl.archive.org/domain/lodlybaeum/item/coin>,nmo:Denomination,"shekel"
+<https://purl.archive.org/domain/lodlybaeum/item/coin>,nmo:Mint,"Spain"
+<https://purl.archive.org/domain/lodlybaeum/item/coin>,nmo:Hoard,"Mogente Coin Hoard"
+<https://purl.archive.org/domain/lodlybaeum/item/coin>,owl:sameAs,bm:object/C_1911-0702-1

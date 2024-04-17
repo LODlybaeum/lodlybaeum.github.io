@@ -1,0 +1,9 @@
+<https://purl.archive.org/domain/lodlybaeum/item/book>,rdf:type,dcterms:BibliographicResource
+<https://purl.archive.org/domain/lodlybaeum/item/book>,dc:creator,<https://lodlybaeum.github.io/person/Polybius>
+<https://purl.archive.org/domain/lodlybaeum/item/book>,dc:title,"Histories"
+<https://purl.archive.org/domain/lodlybaeum/item/book>,dc:language,"grc"
+<https://purl.archive.org/domain/lodlybaeum/item/book>,dc:PhysicalMedium,"papyrus"
+<https://purl.archive.org/domain/lodlybaeum/item/book>,dc:identifier,"https://lccn.loc.gov/05000123"
+<https://purl.archive.org/domain/lodlybaeum/item/book>,dc:publisher,"Trustees of Tufts University"
+<https://purl.archive.org/domain/lodlybaeum/item/book>,dc:created,"1893"
+<https://purl.archive.org/domain/lodlybaeum/item/book>,owl:sameAs,http://data.perseus.org/texts/urn:cts:greekLit:tlg0543.tlg001

@@ -1,0 +1,51 @@
+*{background-color: #14213D;}
+
+body {font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    padding :7%;
+    margin: 2px;
+    text-align: justify;
+}
+
+h1{font-family : "Palatino", serif;
+    color: #FFC300}
+h3{font-size: bold;
+   }
+
+p {font-size: 1em;
+    line-height: 1.6;
+  }
+
+blockquote {
+    font-size:1em;
+}
+
+q {
+    font-size:1em;
+    font-style: italic;
+}
+em {
+    font-weight: bold ;
+    font-family: "Nimbus-roman-no9", sans-serif;
+}
+
+table{border-left: 2px solid #FFC300;
+    padding: 0.6em 1.5em;
+    text-align:left;
+    margin-left: 2em;
+    width: 96%;
+    }
+
+td{padding: 0.2em 1.5em; 
+text-align: left;;}
+
+.k{width: 83%;
+    background-color: #40416E;
+}
+
+
+th{background-color: #14213D !important;
+    font-size: bold;
+    color:#ffffff;
+    padding-right: 1em;
+}

@@ -1,0 +1,12 @@
+<https://purl.archive.org/domain/lodlybaeum/item/episode>,rdf:type,schema:Episode
+<https://purl.archive.org/domain/lodlybaeum/item/episode>,dc:title,"Resistance"
+<https://purl.archive.org/domain/lodlybaeum/item/episode>,schema:partOfSeries,"Barbarians Rising"
+<https://purl.archive.org/domain/lodlybaeum/item/episode>,schema:about,<https://purl.archive.org/domain/lodlybaeum/person/Hannibal>
+<https://purl.archive.org/domain/lodlybaeum/item/episode>,schema:productionCompany,"October Films"
+<https://purl.archive.org/domain/lodlybaeum/item/episode>,schema:countryOfOrigin,"United States"
+<https://purl.archive.org/domain/lodlybaeum/item/episode>,schema:datePublished,"2016-06-06"
+<https://purl.archive.org/domain/lodlybaeum/item/episode>,schema:duration,"PT80M"
+<https://purl.archive.org/domain/lodlybaeum/item/episode>,schema:genre,"Docudrama"
+<https://purl.archive.org/domain/lodlybaeum/item/episode>,schema:inLanguage,"en"
+<https://purl.archive.org/domain/lodlybaeum/item/episode>,schema:episodeNumber,"1"
+<https://purl.archive.org/domain/lodlybaeum/item/episode>,owl:sameAs,https://www.imdb.com/title/tt5807292/

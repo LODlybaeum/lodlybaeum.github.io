@@ -1,0 +1,205 @@
+@base <https://purl.archive.org/domain/lodlybaeum/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dc: <http://purl.org/dc/terms/>.
+@prefix frbr: <http://purl.org/vocab/frbr/core>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>. 
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix schema: <http://schema.org/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix foaf:<http://xmlns.com/foaf/spec/>.
+@prefix mo:<http://musicontology.com/specification/>.
+@prefix bm:<https://britishmuseum.org/collection/>.
+@prefix nmo:<https://numisma.org/ontology#>.
+@prefix wd:<https://wikidata.org/wiki/>.
+@prefix dcatap:<http://data.europa.eu/r5r/>.
+@prefix loc: <https://id.loc.gov/authorities/subjects/> .
+@prefix nattrust: <https://www.nationaltrustcollections.org.uk/object/> .
+
+
+# Central event - Punic Wars
+<https://purl.archive.org/domain/lodlybaeum/event/PunicWars> a time:TemporalEntity;
+	schema:startDate "264 BCE";
+	schema:endDate "146 BCE";
+	owl:sameAs wd:Q124988.
+
+# PERSON - Hannibal
+<https://purl.archive.org/domain/lodlybaeum/person/hannibal> a foaf:person;
+	foaf:givenName "Hannibal";
+	foaf:familyName "Barca";
+	schema:birthDate "247 BCE";
+	schema:deathDate "183 BCE".
+
+# PERSON - Hasdrubal
+<https://purl.archive.org/domain/lodlybaeum/person/Hasdrubal> a  foaf:Person ;
+	foaf:givenName "Hasdrubal";
+	foaf:familyName "Barca".
+
+# PERSON - Polybius
+<https://purl.archive.org/domain/lodlybaeum/person/Polybius> a foaf:Person;
+	foaf:givenName "Polybius".
+	
+# PERSON - Ronald Ridley
+<https://purl.archive.org/domain/lodlybaeum/person/RonaldRidley> a  foaf:Person ;
+	foaf:givenName "Ronald";
+	foaf:familyName "Ridley".
+# event
+<https://purl.archive.org/domain/lodlybaeum/event/SiegeOfSyracuse> a time:TemporalEntity;
+	schema:superEvent <https://purl.archive.org/domain/lodlybaeum/event/PunicWars>;
+	schema:startDate "212 BCE";
+	owl:sameAs wd:Q533090.
+
+# PERSON - Archimedes
+<https://purl.archive.org/domain/lodlybaeum/person/Archimedes> a foaf:Person;
+	foaf:givenName "Archimedes";
+	schema:deathDate "212 BCE";
+	wd:property:P8032 <https://purl.archive.org/domain/lodlybaeum/event/SiegeOfSyracuse>.
+
+# event
+<https://purl.archive.org/domain/lodlybaeum/event/BattleOfZama> a time:TemporalEntity;
+	schema:superEvent <https://purl.archive.org/domain/lodlybaeum/event/PunicWars>;
+	schema:startDate "202 BCE";
+	wd:property:P4791 <https://purl.archive.org/domain/lodlybaeum/person/Hannibal>;
+	owl:sameAs wd:Q200056.
+
+
+
+# Item 1 - Book
+ <https://purl.archive.org/domain/lodlybaeum/item/book>  a dc:BibliographicResource;
+	schema:about <https://purl.archive.org/domain/lodlybaeum/event/PunicWars>;
+	schema:mentions <person/Hasdrubal>;
+	schema:mentions <person/Hannibal>;
+	dc:creator   <person/Polybius> ;
+	dc:title  "Histories";
+	 dc:language  "grc";
+	 dc:PhysicalMedium  "paper";
+	 dc:identifier  05000123;
+	 dc:publisher  "Trustees of Tufts University";
+	 schema:datePublished  "1893";
+	 owl:sameAs   <http://data.perseus.org/texts/urn:cts:greekLit:tlg0543.tlg001> .
+
+# Item 2 - Podcast
+ <https://purl.archive.org/domain/lodlybaeum/item/podcast>  a  schema:PodcastSeries ;
+     dc:title  "Punic Nightmares";
+     dc:creator   <person/DanCarlin> ;
+     schema:inLanguage  "en";
+     schema:isPartOf  "Hardcore History";
+     schema:hasPart  [
+	 dc:description  "Was it geopolitics or simply bitter hatred that fueled the ancient bloodbaths known as “The Punic Wars”? Dan highlights the unimaginable things people experienced during this intense face-off between Rome and Carthage.";
+	 schema:episodeNumber  "21";
+	 schema:datePublished  "2008-07-27";
+	 schema:duration  "PT58M55S"; 
+	 schema:url   <https://music.apple.com/za/album/episode-21-punic-nightmares-i-feat-dan-carlin/635053425> 
+	],
+	[
+	 dc:description  "Darkness, horror, war and carnage dominate Part 2 of the Punic War trilogy as Hannibal rampages across Italy and pushes Rome to the brink of doom.";
+	 schema:episodeNumber  "22";
+	 schema:datePublished  "2008-09-17";
+	 schema:duration  "PT1H18M37S";  
+	 schema:url   <https://music.apple.com/za/album/episode-22-punic-nightmares-ii/635054128> 
+	],
+	[
+	 dc:description  "In one of the great displays of resiliency in all history, the Romans refuse to buckle under murderous Carthaginian pressure. Instead they recover, defeat and destroy Carthage, and conquer most of the Mediterranean.";
+	 schema:episodeNumber  "23";
+	 schema:datePublished  "2008-10-30";
+	 schema:duration  "PT1H35M21S"; 
+	 schema:url   <https://music.apple.com/us/album/episode-23-punic-nightmares-iii-feat-dan-carlin/635055313> 
+	];
+     owl:sameAs   <https://www.dancarlin.com/product/hardcore-history-punic-nightmares-series/> .
+
+# Item 3 - TV Series: Episode
+<https://purl.archive.org/domain/lodlybaeum/item/episode>  a  schema:Episode ;
+	 dc:title  "Resistance";
+	 schema:partOfSeries  "Barbarians Rising";
+         schema:about   <person/Hannibal> ;
+	 schema:productionCompany  "October Films";
+	 schema:countryOfOrigin  "United States";
+	 schema:datePublished  "2016-06-06";
+	 schema:duration  "PT80M"; 
+	 schema:genre  "Docudrama";
+	 schema:inLanguage  "en";
+	 schema:episodeNumber  "1";
+         owl:sameAs   <https://www.imdb.com/title/tt5807292/> .
+
+# Item 4 - Archeological object
+<https://purl.archive.org/domain/lodlybaeum/item/cuirass>  a  wd:Q182731 ;
+     wd:property:P31  "cuirass";
+     wd:property:P571  "3. century BCE";
+     wd:property:P17  "Tunisia";
+     wd:property:P276  "Bardo National Museum";
+     wd:property:P186  "bronze";
+     wd:property:P195  "Carthaginian art in the Bardo National Museum";
+     wd:property:P575  "20 February 1909";
+     wd:property:P189  "Ksour Essef";
+     wd:property:P973   <http://www.bardomuseum.tn/index.php?option=com_content&view=article&id=82%3Acuirasse-campanienne-en-bronze-dore&catid=43%3Alatine-romaine-&Itemid=74&lang=fr> ;
+	 wd:property:P2348   <event/PunicWars> .
+
+# Item 5 - Painting_2
+<https://purl.archive.org/domain/lodlybaeum/item/painting_2>  a  wd:Q3305213 ;
+	 schema:about   <person/Archimedes> ;
+	 wd:property:P180   wd:Q8739 ;
+	 wd:property:P2049  "221.0 Centimetre";
+	 wd:property:P2048  "175.3 Centimetre";
+	 wd:property:P4373    nattrust:609024 ;
+	 wd:property:P170   wd:Q332494 ;
+	 wd:property:P1476  "The Death of Archimedes (English)";
+	 schema:about   wd:Q533090 .
+	
+# Item 6 - Bust
+<https://purl.archive.org/domain/lodlybaeum/item/bust>  a  loc:sh85018348 ;
+	 schema:about   <person/Hannibal> ;
+	 schema:material   wd:Q40861 ;
+	 wd:property:P575  "1667";
+	 wd:property:P189   wd:Q58477 .
+
+# Item 7 - Painting
+<https://purl.archive.org/domain/lodlybaeum/item/painting>  a  wd:Q3305213 ;
+	 schema:name  "The Battle of Zama";
+	 wd:property:P571  "16th century";
+	 wd:property:P276   wd:Q239303 ;
+	 wd:property:P4610  "111618";
+	 wd:property:P921   wd:Q200056 ;
+	 wd:property:P6108  "https://api.artic.edu/api/v1/artworks/111618/manifest.json";
+	 schema:creator   wd:Q167220 ;
+	 schema:artMedium  "Oil on Pannel";
+	 schema:about   <event/BattleOfZama> .
+
+# Item 8 - Song
+<https://purl.archive.org/domain/lodlybaeum/item/song>  a  mo:Track ;
+     schema:about   <person/Hasdrubal> ;
+     dc:language  "es";
+     mo:duration  222000.0;
+     mo:Genre  "folk metal";
+     mo:ReleaseType  "digital";
+     mo:track_number  5;
+     schema:datePublished  "2021-06-18";
+     mo:musicbrainz  "https://musicbrainz.org/ws/2/recording/f6c48386-edc0-42f2-adee-2f0bdfa8addb";
+	 schema:creator   wd:Q21546253 ;
+	 dc:title  "La muerte de Ásdrubal".
+
+# Item 9 - Coin
+<https://purl.archive.org/domain/lodlybaeum/item/coin>  a  nmo:NumismaticObject ;
+	 nmo:hasReverse   <person/Hannibal> ;
+	 dc:identifier  "1911,0702.1";
+	 nmo:hasWeight  "14.61g";
+	 nmo:hasDiameter  "25mm";
+	 nmo:hasAxis  "11 o'clock";
+	 nmo:Material  "silver";
+	 nmo:hasStartDate  "237 BCE";
+	 nmo:hasEndDate  "209 BCE";
+	 nmo:Denomination  "shekel";
+	 nmo:Mint  "Spain";
+	 nmo:Hoard  "Mogente Coin Hoard";
+	 owl:sameAs   <bm:object/C_1911-0702-1> .
+
+# Item 10 - Article
+<https://purl.archive.org/domain/lodlybaeum/item/article>  a  schema:ScholarlyArticle ;
+	 dc:identifier  "10.1086/366973";
+	 schema:about   wd:Q815160 ; #Siege of Carthage
+	 schema:mentions   <person/Hasdrubal> ;
+	 schema:name  "To Be Taken with a Pinch of Salt: The Destruction of Carthage";
+	 schema:datePublished  "1986-04-01";
+	 schema:inLanguage  "en";
+	 schema:publisher  "The University of Chicago Press";
+	 schema:isPartOf  "Classical Philology";
+	 schema:author   <person/RonaldRidley> ;
+	 owl:sameAs   <https://doi.org/10.1086/366973> .

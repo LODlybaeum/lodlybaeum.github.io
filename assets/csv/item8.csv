@@ -1,0 +1,9 @@
+<https://purl.archive.org/domain/lodlybaeum/item/song>,rdf:type,mo:Track
+<https://purl.archive.org/domain/lodlybaeum/item/song>,schema:about,<https://purl.archive.org/domain/lodlybaeum/person/Hasdrubal>
+<https://purl.archive.org/domain/lodlybaeum/item/song>,dcterms:language,es
+<https://purl.archive.org/domain/lodlybaeum/item/song>,mo:duration,222000.0
+<https://purl.archive.org/domain/lodlybaeum/item/song>,mo:Genre,folk metal
+<https://purl.archive.org/domain/lodlybaeum/item/song>,mo:ReleaseType,digital
+<https://purl.archive.org/domain/lodlybaeum/item/song>,mo:track_number,5
+<https://purl.archive.org/domain/lodlybaeum/item/song>,schema:datePublished,2021-06-18
+<https://purl.archive.org/domain/lodlybaeum/item/song>,mo:musicbrainz	https://musicbrainz.org/ws/2/recording/f6c48386-edc0-42f2-adee-2f0bdfa8addb

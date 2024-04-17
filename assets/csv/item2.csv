@@ -1,0 +1,11 @@
+<https://purl.archive.org/domain/lodlybaeum/item/podcast>,rdf:type,schema:PodcastSeries
+<https://purl.archive.org/domain/lodlybaeum/item/podcast>,dc:title,"Punic Nightmares"
+<https://purl.archive.org/domain/lodlybaeum/item/podcast>,dc:creator,<https://purl.archive.org/domain/lodlybaeum/person/DanCarlin>
+<https://purl.archive.org/domain/lodlybaeum/item/podcast>,schema:inLanguage,"en"
+<https://purl.archive.org/domain/lodlybaeum/item/podcast>,schema:isPartOf,"Hardcore History"
+<https://purl.archive.org/domain/lodlybaeum/item/podcast>,schema:hasPart,"Episode 21"
+<https://purl.archive.org/domain/lodlybaeum/item/podcast>,schema:episodeNumber,"1"
+<https://purl.archive.org/domain/lodlybaeum/item/podcast>,schema:startDate,"2008-07-27"
+<https://purl.archive.org/domain/lodlybaeum/item/podcast>,schema:duration,"PT58M55S"
+<https://purl.archive.org/domain/lodlybaeum/item/podcast>,schema:url,http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?id=635053425
+<https://purl.archive.org/domain/lodlybaeum/item/podcast>,owl:sameAs,https://www.dancarlin.com/product/hardcore-history-punic-nightmares-series/

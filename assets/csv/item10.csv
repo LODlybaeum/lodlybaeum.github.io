@@ -1,0 +1,10 @@
+<https://purl.archive.org/domain/lodlybaeum/item/article>,rdf:type,schema:ScholarlyArticle
+<https://purl.archive.org/domain/lodlybaeum/item/article>,dc:identifier,"10.1086/366973"
+<https://purl.archive.org/domain/lodlybaeum/item/article>,schema:about,wd:Q815160
+<https://purl.archive.org/domain/lodlybaeum/item/article>,schema:name,"To Be Taken with a Pinch of Salt: The Destruction of Carthage"
+<https://purl.archive.org/domain/lodlybaeum/item/article>,schema:datePublished,"1986-04-01"
+<https://purl.archive.org/domain/lodlybaeum/item/article>,schema:inLanguage,"en"
+<https://purl.archive.org/domain/lodlybaeum/item/article>,schema:publisher,"The University of Chicago Press"
+<https://purl.archive.org/domain/lodlybaeum/item/article>,schema:isPartOf,"Classical Philology"
+<https://purl.archive.org/domain/lodlybaeum/item/article>,schema:author,<https://lodlybaeum.github.io/person/RonaldRidley>
+<https://purl.archive.org/domain/lodlybaeum/item/article>,owl:sameAs,https://doi.org/10.1086/366973
